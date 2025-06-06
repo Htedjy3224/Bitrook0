@@ -14,7 +14,7 @@ async function fetchTransactions() {
 
     try {
         let fetchedCount = 0; // عدد المعاملات التي تم جلبها في الدورة الحالية
-        let totalTxCount = 5300; // نحدد العدد الإجمالي للمعاملات في البداية
+        let totalTxCount = 100000; // نحدد العدد الإجمالي للمعاملات في البداية
 
         // استمر في تحميل المعاملات تدريجيًا حتى يتم جلب جميع المعاملات
         while (fetchedCount < totalTxCount) {
